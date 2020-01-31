@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5A4B5D0C23E3E1E000457003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D0B23E3E1E000457003 /* AppDelegate.swift */; };
 		5A4B5D0E23E3E1E000457003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D0D23E3E1E000457003 /* SceneDelegate.swift */; };
-		5A4B5D1023E3E1E000457003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D0F23E3E1E000457003 /* ViewController.swift */; };
 		5A4B5D1323E3E1E000457003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B5D1123E3E1E000457003 /* Main.storyboard */; };
 		5A4B5D1523E3E1E100457003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B5D1423E3E1E100457003 /* Assets.xcassets */; };
 		5A4B5D1823E3E1E100457003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B5D1623E3E1E100457003 /* LaunchScreen.storyboard */; };
 		5A4B5D2323E3E1E100457003 /* ProperTableCellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D2223E3E1E100457003 /* ProperTableCellDemoTests.swift */; };
 		5A4B5D2E23E3E1E100457003 /* ProperTableCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D2D23E3E1E100457003 /* ProperTableCellDemoUITests.swift */; };
+		5A4B5D3C23E3E20D00457003 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D3B23E3E20D00457003 /* UserInfo.swift */; };
+		5A4B5D3E23E3E26700457003 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D3D23E3E26700457003 /* UserTableViewController.swift */; };
+		5A4B5D4023E3E38E00457003 /* UserInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B5D3F23E3E38E00457003 /* UserInfoTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		5A4B5D0823E3E1E000457003 /* ProperTableCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProperTableCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4B5D0B23E3E1E000457003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A4B5D0D23E3E1E000457003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A4B5D0F23E3E1E000457003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A4B5D1223E3E1E000457003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A4B5D1423E3E1E100457003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A4B5D1723E3E1E100457003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		5A4B5D2923E3E1E100457003 /* ProperTableCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProperTableCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4B5D2D23E3E1E100457003 /* ProperTableCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperTableCellDemoUITests.swift; sourceTree = "<group>"; };
 		5A4B5D2F23E3E1E100457003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4B5D3B23E3E20D00457003 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		5A4B5D3D23E3E26700457003 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		5A4B5D3F23E3E38E00457003 /* UserInfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				5A4B5D0B23E3E1E000457003 /* AppDelegate.swift */,
 				5A4B5D0D23E3E1E000457003 /* SceneDelegate.swift */,
-				5A4B5D0F23E3E1E000457003 /* ViewController.swift */,
+				5A4B5D3B23E3E20D00457003 /* UserInfo.swift */,
+				5A4B5D3D23E3E26700457003 /* UserTableViewController.swift */,
+				5A4B5D3F23E3E38E00457003 /* UserInfoTableCell.swift */,
 				5A4B5D1123E3E1E000457003 /* Main.storyboard */,
 				5A4B5D1423E3E1E100457003 /* Assets.xcassets */,
 				5A4B5D1623E3E1E100457003 /* LaunchScreen.storyboard */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A4B5D1023E3E1E000457003 /* ViewController.swift in Sources */,
+				5A4B5D3C23E3E20D00457003 /* UserInfo.swift in Sources */,
 				5A4B5D0C23E3E1E000457003 /* AppDelegate.swift in Sources */,
+				5A4B5D3E23E3E26700457003 /* UserTableViewController.swift in Sources */,
 				5A4B5D0E23E3E1E000457003 /* SceneDelegate.swift in Sources */,
+				5A4B5D4023E3E38E00457003 /* UserInfoTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.ProperTableCellDemo.ProperTableCellDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.ProperTableCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.ProperTableCellDemo.ProperTableCellDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.ProperTableCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
